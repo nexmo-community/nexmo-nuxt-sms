@@ -1,0 +1,29 @@
+{
+  "name": "nexmo-nuxt-sms",
+  "version": "1.0.0",
+  "description": "Send &amp; Receive SMS Messages with Nuxt.js and the Nexmo SMS API",
+  "author": "Alex Lakatos",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --fix --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "nexmo": "^2.6.0",
+    "nuxt": "^2.0.0",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
